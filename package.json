@@ -1,0 +1,35 @@
+{
+  "name": "my-vue-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "format": "prettier .  --write"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@stylistic/eslint-plugin-js": "^4.2.0",
+    "@types/node": "^22.13.10",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/tsconfig": "^0.7.0",
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-vue": "^10.0.0",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3",
+    "typescript-eslint": "^8.26.1",
+    "typescript": "~5.7.2",
+    "unplugin-auto-import": "^19.1.1",
+    "vite": "^6.2.0",
+    "vue-tsc": "^2.2.4",
+    "vite-plugin-eslint": "^1.8.1",
+    "vue-eslint-parser": "^10.1.1"
+  }
+}
