@@ -16,6 +16,7 @@ export default defineConfig([
 		files: ['**/*.{ts,js,mjs,cjs,vue}'],
 		languageOptions: {
 			globals: { ...globals.browser, ...globals.node, ...autoImportConfig.globals },
+			parser: tseslint.parser,
 			parserOptions: { parser: tseslint.parser }
 		}
 	},

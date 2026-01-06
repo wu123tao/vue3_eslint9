@@ -20,7 +20,7 @@ export default defineConfig({
 
 			eslintrc: {
 				enabled: true,
-				filepath: path.resolve(pathSrc, 'types/.eslintrc-auto-import.json'),
+				filepath: path.resolve(pathSrc, '../.eslintrc-auto-import.json'),
 				globalsPropValue: true
 			}
 		})
