@@ -41,6 +41,10 @@ export default defineConfig([
 			parserOptions: {
 				extraFileExtensions: ['.vue']
 			}
+		},
+		rules: {
+			// 要求组件名称始终为 “-” 链接的单词
+			// 'vue/multi-word-component-names': ['error', { ignores: ['index'] }]
 		}
 	},
 	{
